@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: greenyellow;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+#header{
+    padding: 15px 0;
+    background: rgba(0,0,0,0.16);
+    box-shadow: 0 0 16px rgba(0,0,0,0.85);
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-btn{
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius:6px;
+    margin: 0 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#search{
+    padding: 60px 0;
+}
+.search-input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.hero-title{
+    margin-bottom: 30px;
+    color: black;
+    font-family: sans-serif;
+}
+.hero-gen{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero-gen h5{
+    font-family: sans-serif;
+}
+.hero-gen p {
+    font-family: sans-serif;
+}
+.hero-block{
+    margin: 10px 30px;
+}
+#uber{
+    background: #262626;
+    padding: 40px 0;
+}
+.uber-width {
+    width: 100%;
+    background: grey;
+    height: 2px;
+    margin-top: 40px;
+}
+#footer{
+    width: 100%;
+    height: 552px;
+    background: #262626;
+    margin-top: 100px;
+}
+.logo_ img {
+    margin: 60px;
+}
+.items{
+    display: flex;
+    justify-content:space-around;
+}
+.select{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.select select{
+    Width:227px;
+    Height:40px;
+    color: white;
+    background: #3B3B3B;
+    border-radius: 2px;
+    margin-bottom: 33px;
+}
+.about h3{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 35px;
+    color: #FFFFFF;
+}
+.select-item {
+    color: white;
+    font-size: 20px;
+}
+.select-item2 {
+    color: greenyellow;
+}
+.btn_footer{
+    display: flex;
+    justify-content: center;
+}
+.btn_footer button{
+    background: #262626;
+    border: none;
+    margin: 40px 0  80px 0;
+}
